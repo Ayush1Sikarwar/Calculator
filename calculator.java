@@ -8,6 +8,7 @@ class Calculator {
         int b = sc.nextInt();
         System.out.println("Addition: " + add(a, b));
         System.out.println("Subtraction: " + subtract(a, b));
+        System.out.println("Multiplication: " + multiply(a, b));
     }
 
     public static int add(int x, int y) {
@@ -16,6 +17,10 @@ class Calculator {
 
     public static int subtract(int x, int y) {
         return x - y;
+    }
+
+    public static int multiply(int x, int y) {
+        return x * y;
     }
 
 }
